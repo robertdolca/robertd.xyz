@@ -9,7 +9,7 @@
 title: "Robert's Blog"
 email: robert.dolca@gmail.com
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+url: "http://robertdolca.github.io" # the base hostname & protocol for your site
 social:
   twitter: robertdolca
   github: robertdolca
