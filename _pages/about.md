@@ -2,6 +2,7 @@
 layout: page
 title: About
 permalink: /about/
+weight: 2
 ---
 
 Find more on <a href="http://fb.me/robertdolca" target="_blank">Facebook</a>,
