@@ -27,4 +27,19 @@ layout: default
   </div>
 </article>
 
-{% include disqus.html %}
+{% if site.related_posts.size > 1 %}
+  <div class="related-posts">
+    <h2>Related posts</h2>
+    <ul>
+      {% for post in site.related_posts limit:5 %}
+        <li>
+          <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+{% endif %}
+
+<div class="comments">
+  {% include disqus.html %}
+</div>
