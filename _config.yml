@@ -19,6 +19,8 @@ paginate: 10
 
 # Build settings
 markdown: kramdown
+kramdown:
+  input: GFM
 
 # Atom (RSS) feeds
 gems:
