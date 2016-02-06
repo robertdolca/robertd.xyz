@@ -1,0 +1,12 @@
+{% if network == 'twitter' %}
+  {% assign url = 'https://twitter.com/' %}
+{% elsif network == 'github' %}
+  {% assign url = 'https://github.com/' %}
+{% elsif network == 'linkedin' %}
+  {% assign url = 'https://linkedin.com/in/' %}
+{% endif %}
+
+<a href="{{ url }}{{ include.username }}">
+  <span class="icon icon-{{network}}">{% include icons/{{network}}.svg %}</span>
+  <span class="username">{{ include.username }}</span>
+</a>
